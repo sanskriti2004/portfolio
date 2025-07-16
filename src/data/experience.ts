@@ -2,35 +2,24 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Full-stack Developer Intern",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "EMVOKE Technologies Pvt. Ltd.",
+      href: "https://www.emvoke.com/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
+    date: "June 2025 - October 2025",
+    location: "Remote",
     description: "Reactjs and Nextjs app development",
   },
   {
-    title: "Engineering Trainee",
+    title: "AI & Web Dev Intern",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "23Ventures Inc.",
+      href: "https://www.23ventures.in/",
     },
-    date: "July 2023 - Sep 2023",
+    date: "May 2025 - June 2025",
     location: "Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
-  },
-  {
-    title: "Frontend Developer Intern",
-    organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
-    },
-    date: "Winter - 2022",
-    location: "Remote",
-    description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Maintained and scaled web infrastructure using Next.js and Tailwind CSS, ensuring responsive design and clean user experiences. Contributed to the frontend development of an AI-powered SaaS product (23Ventures Outreach App).",
   },
 ];

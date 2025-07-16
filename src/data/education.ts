@@ -2,35 +2,35 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Bachelor Of Engineering in Computer Science",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Dayananda Sagar College Of Engineering",
+      href: "https://www.dsce.edu.in/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2023-2027",
+    location: "Bangalore",
     description:
       "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
   },
   {
     title: "Higher Secondary School",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "JSS Public School",
+      href: "",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2021-2023",
+    location: "Bangalore",
     description:
       "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
   },
   {
-    title: "Secondary School Education",
+    title: "Primary and Secondary School",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "Holy Angel High School",
+      href: "",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
+    date: "2011-2021",
+    location: "Mumbai",
     description:
       "Learned good values,dedication and disciplne. Played district football for 5 years.",
   },

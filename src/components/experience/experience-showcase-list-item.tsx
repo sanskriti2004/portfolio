@@ -64,7 +64,7 @@ export default function ExperienceShowcaseListItem(
         }}
       >
         <h3 className="text-base font-bold text-foreground sm:text-xl md:text-2xl">
-          {props.title}{" "}
+          {props.title} <br />
           <Link
             href={props.organisation.href}
             className="cursor-pointer text-accent"
