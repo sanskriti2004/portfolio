@@ -1,178 +1,52 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
-
-// Languages
-import HtmlSvg from "@/public/icons/html.svg";
-import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
-import JavascriptSvg from "@/public/icons/javascript.svg";
-import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
-
-// Libraries
-import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
-import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
-
-// Backend
-import NodejsSvg from "@/public/icons/nodejs.svg";
-
-// Database and ORMS
-import MongoDBSvg from "@/public/icons/mongodb.svg";
-import PostgressSvg from "@/public/icons/postgresql.svg";
-
-// Tools and Tech
-import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
-import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Languages",
     skills: [
-      {
-        name: "HTML",
-        icon: HtmlSvg,
-      },
-      {
-        name: "CSS",
-        icon: CsssSvg,
-      },
-      {
-        name: "SASS",
-        icon: SassSvg,
-      },
-      {
-        name: "Javascript",
-        icon: JavascriptSvg,
-      },
-      {
-        name: "Typescript",
-        icon: TypescriptSvg,
-      },
-      {
-        name: "Python",
-        icon: PythonSvg,
-      },
+      { name: "Javascript", icon: "/icons/javascript.svg" },
+      { name: "Typescript", icon: "/icons/typescript.svg" },
+      { name: "Python", icon: "/icons/python.svg" },
+      { name: "Go", icon: "/icons/go.png" },
+      { name: "Java", icon: "/icons/java.svg" },
+      { name: "Rust", icon: "/icons/rust.png" },
     ],
   },
   {
-    sectionName: "Libraries and Frameworks",
+    sectionName: "Frontend",
     skills: [
-      {
-        name: "Reactjs",
-        icon: ReactjsSvg,
-      },
-      {
-        name: "Nextjs",
-        icon: SiNextdotjs,
-      },
-      {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
-      {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
-      },
-      {
-        name: "Redux",
-        icon: ReduxSvg,
-      },
-      {
-        name: "Tailwindcss",
-        icon: TailwindcssSvg,
-      },
-      {
-        name: "MUI",
-        icon: MuiSvg,
-      },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
+      { name: "HTML", icon: "/icons/html.svg" },
+      { name: "CSS", icon: "/icons/css.svg" },
+      { name: "Reactjs", icon: "/icons/reactjs.svg" },
+      { name: "Nextjs", icon: "/icons/nextjs.svg" }, // You need to add this SVG/PNG to /public/icons/
+      { name: "Redux", icon: "/icons/redux.svg" },
+      { name: "Tailwindcss", icon: "/icons/tailwindcss.svg" },
+      { name: "Framer motion", icon: "/icons/fram.svg" }, // Ensure this file exists
     ],
   },
   {
     sectionName: "Backend",
     skills: [
-      {
-        name: "Nodejs",
-        icon: NodejsSvg,
-      },
-      {
-        name: "Express",
-        icon: SiExpress,
-      },
-      {
-        name: "Socket.io",
-        icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
+      { name: "Nodejs", icon: "/icons/nodejs.svg" },
+      { name: "Express", icon: "/icons/express.svg" }, // Add this manually if it doesn't exist
     ],
   },
   {
     sectionName: "Databases and ORMs",
     skills: [
-      {
-        name: "MongoDB",
-        icon: MongoDBSvg,
-      },
-      {
-        name: "Postgress",
-        icon: PostgressSvg,
-      },
-      {
-        name: "Prisma",
-        icon: SiPrisma,
-      },
+      { name: "MongoDB", icon: "/icons/mongodb.svg" },
+      { name: "Postgress", icon: "/icons/postgresql.svg" },
+      { name: "Prisma", icon: "/icons/prisma.svg" },
     ],
   },
   {
     sectionName: "Tools and Technologies",
     skills: [
-      {
-        name: "Git",
-        icon: GitSvg,
-      },
-      {
-        name: "Docker",
-        icon: DockerSvg,
-      },
-      {
-        name: "AWS",
-        icon: AwsSvg,
-      },
-      {
-        name: "Postman",
-        icon: PostmanSvg,
-      },
+      { name: "Git", icon: "/icons/git.svg" },
+      { name: "Docker", icon: "/icons/docker.svg" },
+      { name: "Kubernetes", icon: "/icons/kubernetes.svg" }, // Add icon if not available
+      { name: "AWS", icon: "/icons/aws.svg" },
+      { name: "Postman", icon: "/icons/postman.svg" },
     ],
   },
 ];

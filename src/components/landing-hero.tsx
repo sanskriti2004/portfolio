@@ -39,7 +39,7 @@ export default function LandingHero() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
-                Amit Chauhan
+                Sanskriti Gogoi{" "}
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
                 Software Developer
@@ -51,11 +51,11 @@ export default function LandingHero() {
                 high-performance, user-focused web applications. Skilled in{" "}
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
                 <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
+                <span className="font-semibold text-accent">ExpressJS</span> and
                 an expert in{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>
+                <span className="font-semibold text-accent">Python</span> and{" "}
+                <span className="font-semibold text-accent">Go</span>
               </div>
             </FadeUp>
           </AnimatePresence>
