@@ -13,18 +13,18 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Amit Chauhan | Software Developer"
-        description="Explore the professional portfolio of Amit Chauhan, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Sanskriti Gogoi | Software Developer"
+        description="Explore the professional portfolio of Sanskriti Gogoi, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Amit Chauhan - Software Developer",
+          title: "Sanskriti Gogoi - Software Developer",
           description:
-            "Dive into the world of web development with Amit Chauhan. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Sanskriti Gogoi. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Sanskriti Gogoi - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -48,6 +48,7 @@ export default function Home() {
             content={siteMetadata.googleSiteVerification}
           />
         )}
+        <link rel="icon" href="/favicon1.png" />
       </Head>
       <LandingHero />
       <SkillsShowcase skills={SKILLS_DATA} />
