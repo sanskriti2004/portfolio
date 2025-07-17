@@ -10,7 +10,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2023-2027",
     location: "Bangalore",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Relevant courses included Data Structures and Algorithms, Python for Cybersecurity, End to end IoT Solutions, Computer Networks and Security, Artificial Intelligence in Cybersecurity.",
   },
   {
     title: "Higher Secondary School",
@@ -21,7 +21,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2021-2023",
     location: "Bangalore",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Completed the course in Physics, Chemistry, Math and Computer Science with 85% in 12th grade. Got interested in programming and learned python.",
   },
   {
     title: "Primary and Secondary School",
@@ -32,6 +32,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2011-2021",
     location: "Mumbai",
     description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "Consistently ranked 1st in school exams and participated and won multiple inter-school competitions. Completed the course with 95% in 10th grade.",
   },
 ];

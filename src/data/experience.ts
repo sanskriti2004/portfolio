@@ -9,7 +9,8 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "June 2025 - October 2025",
     location: "Remote",
-    description: "Reactjs and Nextjs app development",
+    description:
+      "Engaged in full-cycle application development across Angular, Node.js and MongoDB within a distributed microservices architecture. Implemented unit and integration testing strategies across front-end and backend layers, leveraging tools like Jasmine, Karma and related frameworks to ensure application reliability and maintainability.",
   },
   {
     title: "AI & Web Dev Intern",
