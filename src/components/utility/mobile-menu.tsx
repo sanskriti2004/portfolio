@@ -28,7 +28,7 @@ export default function MobileMenu({
 
   return (
     <Transition show={openMenu} as={Fragment}>
-      <Dialog as="div" className="z-50" onClose={setOpenMenu}>
+      <Dialog as="div" className="z-50 " onClose={setOpenMenu}>
         <div className="fixed inset-0 flex items-center justify-center">
           <Transition.Child
             as={Fragment}
@@ -39,8 +39,8 @@ export default function MobileMenu({
             leaveFrom="opacity-100 bottom-[15%]"
             leaveTo="opacity-0 bottom-full"
           >
-            <Dialog.Panel className="pointer-events-none absolute flex min-h-[85%] w-full flex-col items-center justify-center overflow-y-auto rounded-b-2xl border-2 border-accent/20 bg-background px-6 py-8 text-accent shadow-lg shadow-accent/10 md:px-10 md:py-16">
-              <div className="pointer-events-auto flex flex-col items-center gap-6 text-center">
+            <Dialog.Panel className="pointer-events-none flex min-h-screen w-full flex-col items-center justify-center overflow-y-auto rounded-b-2xl border-2 border-accent/20 bg-background px-6 py-8 text-accent shadow-lg shadow-accent/10 md:px-10 md:py-16">
+              <div className="pointer-events-auto flex flex-col items-center gap-3 text-center">
                 {routes.map((link, i) => (
                   <button
                     key={i}
