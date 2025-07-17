@@ -7,9 +7,9 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "Javascript", icon: "/icons/javascript.svg" },
       { name: "Typescript", icon: "/icons/typescript.svg" },
       { name: "Python", icon: "/icons/python.svg" },
-      { name: "Go", icon: "/icons/go.png" },
+      { name: "Go", icon: "/icons/go.svg" },
       { name: "Java", icon: "/icons/java.svg" },
-      { name: "Rust", icon: "/icons/rust.png" },
+      { name: "Rust", icon: "/icons/rust.svg" },
     ],
   },
   {
@@ -18,17 +18,16 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "HTML", icon: "/icons/html.svg" },
       { name: "CSS", icon: "/icons/css.svg" },
       { name: "Reactjs", icon: "/icons/reactjs.svg" },
-      { name: "Nextjs", icon: "/icons/nextjs.svg" }, // You need to add this SVG/PNG to /public/icons/
+      { name: "Nextjs", icon: "/icons/next.svg" },
       { name: "Redux", icon: "/icons/redux.svg" },
       { name: "Tailwindcss", icon: "/icons/tailwindcss.svg" },
-      { name: "Framer motion", icon: "/icons/fram.svg" }, // Ensure this file exists
     ],
   },
   {
     sectionName: "Backend",
     skills: [
       { name: "Nodejs", icon: "/icons/nodejs.svg" },
-      { name: "Express", icon: "/icons/express.svg" }, // Add this manually if it doesn't exist
+      { name: "Express", icon: "/icons/express.svg" },
     ],
   },
   {
@@ -44,7 +43,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     skills: [
       { name: "Git", icon: "/icons/git.svg" },
       { name: "Docker", icon: "/icons/docker.svg" },
-      { name: "Kubernetes", icon: "/icons/kubernetes.svg" }, // Add icon if not available
+      { name: "Kubernetes", icon: "/icons/kubernetes.svg" },
       { name: "AWS", icon: "/icons/aws.svg" },
       { name: "Postman", icon: "/icons/postman.svg" },
     ],
