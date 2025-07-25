@@ -32,6 +32,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2011-2021",
     location: "Mumbai",
     description:
-      "Consistently ranked 1st in school exams and participated and won multiple inter-school competitions. Completed the course with 95% in 10th grade.",
+      "Consistently ranked 1st in examinations and participated and won multiple inter-school competitions. Completed the course with 95% in 10th grade.",
   },
 ];
