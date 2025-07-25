@@ -48,7 +48,7 @@ export default function Home() {
             content={siteMetadata.googleSiteVerification}
           />
         )}
-        <link rel="icon" href="/favicon1.png" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <LandingHero />
       <SkillsShowcase skills={SKILLS_DATA} />
