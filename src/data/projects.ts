@@ -5,9 +5,9 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "AI Tone Editor",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Reactjs", "Tailwindcss", "MistralAI", "Express"],
     image: {
       LIGHT: "/images/projects/jsontreeLight.webp",
       DARK: "/images/projects/jsontreeDark.webp",
@@ -15,17 +15,9 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "BlockAid",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
-    ],
+    tags: ["Reactjs", "Tailwindcss", "Solidity", "Hardhat", "Vercel"],
     image: {
       LIGHT: "/images/projects/manyGamesLight.webp",
       DARK: "/images/projects/manyGamesDark.webp",
@@ -33,9 +25,9 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "TourCraft",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Reactjs", "Vite", "Tailwindcss", "Express", "JWT", "MongoDB"],
     image: {
       LIGHT: "/images/projects/kanbanLight.webp",
       DARK: "/images/projects/kanbanDark.webp",
@@ -45,19 +37,19 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
+    name: "AI Tone Editor",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
       "/images/projects/jsontreeLight.webp",
       "/images/projects/jsontreeDark.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "An interactive AI Tone Adjustment Tool where users can edit text and control its tone from formal to casual and concise to expanded using a 2D slider.",
+    sourceCodeHref: "https://github.com/sanskriti2004/ai-tone-editor",
+    liveWebsiteHref: "https://ai-tone-editor-client.vercel.app/",
   },
   {
-    name: "Kanban app",
+    name: "BlockAid",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
       "/images/projects/kanbanLight.webp",
@@ -65,12 +57,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/kanbanCardLight.webp",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "BlockAid is a decentralized platform designed to automate and streamline disaster relief distribution using blockchain technology. It enables transparent, fast, and tamper-proof aid management, especially for rural and underserved communities.",
+    sourceCodeHref: "https://github.com/sanskriti2004/blockaid_haccverse",
+    liveWebsiteHref: "https://blockaid-nine.vercel.app/",
   },
   {
-    name: "Many Games",
+    name: "TourCraft",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
       "/images/projects/manyGamesDark.webp",
@@ -80,9 +72,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/manyGamesWordle.webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "A full-stack product demo platform, this project demonstrates the my ability to design, develop and deploy a modern web application that enables users to create and share interactive product walkthroughs.",
+    sourceCodeHref: "https://github.com/sanskriti2004/TourCraft",
+    liveWebsiteHref: "https://tour-craft-frontend.vercel.app/",
   },
   {
     name: "My portfolio",
@@ -93,24 +85,24 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+    sourceCodeHref: "https://github.com/sanskriti2004/portfolio",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
-    name: "Covid Tracker",
-    favicon: "/images/projects/logos/covidtracker.ico",
+    name: "Resume Builder",
+    favicon: "/images/projects/logos/resume-ready.png",
     imageUrl: [
       "/images/projects/covidTracker.webp",
       "/images/projects/covidTrackerMap.webp",
       "/images/projects/covidTrackerTable.webp",
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Engineered with React functional components and Hooks to capture user input and render real-time updates on an A4-sized layout. Applied Tailwind CSS for consistent styling and responsive design, ensuring clean print-ready formatting for PDF exports.",
+    sourceCodeHref: "https://github.com/sanskriti2004/resume-ready",
+    liveWebsiteHref: "https://resume-ready-mu.vercel.app/",
   },
   {
-    name: "Stock predictor",
+    name: "Blockchain Simulator",
     favicon: "/images/projects/logos/stockpredictor.ico",
     imageUrl: [
       "/images/projects/stockPredictor.webp",
@@ -119,7 +111,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/stockPredictorLineChart.webp",
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "A Rust-based blockchain simulator that mimics the mining process using SHA-256 hashing and proof-of-work (PoW). It features a simplified blockchain structure to demonstrate core concepts like cryptographic hashing, decentralized ledger updates, and transaction validation.",
+    sourceCodeHref: "https://github.com/sanskriti2004/blockchain-simulator",
   },
 ];

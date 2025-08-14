@@ -49,13 +49,14 @@ export default function LandingHero() {
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
                 I am a software developer specializing in building
                 high-performance, user-focused web applications. Skilled in{" "}
-                <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">ExpressJS</span> and
-                an expert in{" "}
-                <span className="font-semibold text-accent">JavaScript</span>,{" "}
-                <span className="font-semibold text-accent">Python</span> and{" "}
-                <span className="font-semibold text-accent">Go</span>
+                <span className="font-semibold text-accent">MERN stack</span>,{" "}
+                <span className="font-semibold text-accent">NextJS</span> and
+                currently exploring{" "}
+                <span className="font-semibold text-accent">ML</span>,{" "}
+                <span className="font-semibold text-accent">DevOps</span>,{" "}
+                <span className="font-semibold text-accent">
+                  Low-level & High-level design
+                </span>
               </div>
             </FadeUp>
           </AnimatePresence>
