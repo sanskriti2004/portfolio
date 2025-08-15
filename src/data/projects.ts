@@ -9,8 +9,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Tailwindcss", "MistralAI", "Express"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/aitone_1.jpg",
+      DARK: "/images/projects/aitone_1.jpg",
     },
   },
   {
@@ -19,8 +19,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Tailwindcss", "Solidity", "Hardhat", "Vercel"],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/blockaid_1.jpg",
+      DARK: "/images/projects/blockaid_1.jpg",
     },
   },
   {
@@ -29,8 +29,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Express", "JWT", "MongoDB"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/tourcraft_1.jpg",
+      DARK: "/images/projects/tourcraft_1.jpg",
     },
   },
 ];
