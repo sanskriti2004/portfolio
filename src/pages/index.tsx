@@ -21,12 +21,6 @@ export default function Home() {
           title: "Sanskriti Gogoi - Software Developer",
           description:
             "Dive into the world of web development with Sanskriti Gogoi. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Sanskriti Gogoi - Portfolio Image",
-            },
-          ],
           siteName: siteMetadata.siteName,
           type: "website",
         }}
@@ -42,12 +36,6 @@ export default function Home() {
         ]}
       />
       <Head>
-        {siteMetadata.googleSiteVerification && (
-          <meta
-            name="google-site-verification"
-            content={siteMetadata.googleSiteVerification}
-          />
-        )}
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <LandingHero />

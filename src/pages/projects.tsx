@@ -16,12 +16,6 @@ export default function Projects() {
           title: "Discover Projects by Sanskriti Gogoi - Software Developer",
           description:
             "Explore a showcase of projects crafted by Sanskriti Gogoi, a Software Developer. Witness the fusion of creativity and technology in web development.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Sanskriti Gogoi - Portfolio Image",
-            },
-          ],
           siteName: siteMetadata.siteName,
           type: "website",
         }}

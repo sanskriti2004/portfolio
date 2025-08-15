@@ -10,7 +10,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2023-2027",
     location: "Bangalore",
     description:
-      "Relevant courses included Data Structures and Algorithms, Python for Cybersecurity, End to end IoT Solutions, Computer Networks and Security, Artificial Intelligence in Cybersecurity.",
+      "Relevant courses included Data Structures and Algorithms, Python for Cybersecurity, End to end IoT Solutions, Computer Networks and Security, AI/ML.",
   },
   {
     title: "Higher Secondary School",

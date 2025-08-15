@@ -18,12 +18,6 @@ export default function About() {
           title: "Learn About Sanskriti Gogoi - Software Developer",
           description:
             "Dive into the story of Sanskriti Gogoi, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Sanskriti Gogoi - Portfolio Image",
-            },
-          ],
           siteName: siteMetadata.siteName,
           type: "website",
         }}

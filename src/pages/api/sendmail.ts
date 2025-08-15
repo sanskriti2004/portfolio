@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 import { ValidationError } from "yup";
 
-import { mailValidationSchema } from "@/components/contact-form/contact-form";
+// import { mailValidationSchema } from "@/components/contact-form/contact-form";
 import { rateLimiterApi, getUserId } from "@/utility/rate-limiter";
 import { sendMail } from "@/utility/sendMail";
 
@@ -59,7 +59,7 @@ const handler = async (
     if (isRateLimited.status !== 200) return;
 
     try {
-      await mailValidationSchema.validate(body, { abortEarly: false });
+      // await mailValidationSchema.validate(body, { abortEarly: false });
     } catch (validationError) {
       if (validationError instanceof ValidationError) {
         res.status(422).json({
