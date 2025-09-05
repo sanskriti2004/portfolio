@@ -39,10 +39,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "AI Tone Editor",
     favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
+    imageUrl: ["images/projects/aitone_1.jpg", "images/projects/aitone_2.jpg"],
     description:
       "An interactive AI Tone Adjustment Tool where users can edit text and control its tone from formal to casual and concise to expanded using a 2D slider.",
     sourceCodeHref: "https://github.com/sanskriti2004/ai-tone-editor",
@@ -52,9 +49,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "BlockAid",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/blockaid_1.jpg",
+      "/images/projects/blockaid_2.jpg",
+      "/images/projects/blockaid_3.jpg",
     ],
     description:
       "BlockAid is a decentralized platform designed to automate and streamline disaster relief distribution using blockchain technology. It enables transparent, fast, and tamper-proof aid management, especially for rural and underserved communities.",
@@ -65,11 +62,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "TourCraft",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/tourcraft_1.jpg",
+      "/images/projects/tourcraft_2.jpg",
+      "/images/projects/tourcraft_3.jpg",
+      "/images/projects/tourcraft_4.jpg",
     ],
     description:
       "A full-stack product demo platform, this project demonstrates the my ability to design, develop and deploy a modern web application that enables users to create and share interactive product walkthroughs.",

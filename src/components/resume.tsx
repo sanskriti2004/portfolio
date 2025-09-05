@@ -25,7 +25,7 @@ export default function Resume() {
               href="https://docs.google.com/document/d/1s4BFDJW48p-YS3fOX--eIMiCJ5QuNJzqIGq9SIOgnR4/export?format=pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded bg-accent/90 px-6 py-3 font-semibold text-white transition hover:bg-accent/80"
+              className="mt-5 rounded bg-accent/90 px-6 py-3 font-semibold text-white transition hover:bg-accent/80"
             >
               Download PDF
             </a>

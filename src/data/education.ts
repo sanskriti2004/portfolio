@@ -8,9 +8,9 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       href: "https://www.dsce.edu.in/",
     },
     date: "2023-2027",
-    location: "Bangalore",
+    location: "Bangalore, India",
     description:
-      "Relevant courses included Data Structures and Algorithms, Python for Cybersecurity, End to end IoT Solutions, Computer Networks and Security, AI/ML.",
+      "Relevant courses included Data Structures and Algorithms, Python for Cybersecurity, End to end IoT Solutions, Computer Networks and Security, AI/ML, Cloud Computing and Security.",
   },
   {
     title: "Higher Secondary School",
@@ -19,7 +19,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       href: "",
     },
     date: "2021-2023",
-    location: "Bangalore",
+    location: "Bangalore, India",
     description:
       "Completed the course in Physics, Chemistry, Math and Computer Science with 85% in 12th grade. Got interested in programming and learned python.",
   },
@@ -30,7 +30,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       href: "",
     },
     date: "2011-2021",
-    location: "Mumbai",
+    location: "Mumbai, India",
     description:
       "Consistently ranked 1st in examinations and participated and won multiple inter-school competitions. Completed the course with 95% in 10th grade.",
   },
