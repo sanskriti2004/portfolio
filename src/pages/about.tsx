@@ -5,6 +5,7 @@ import ExperienceShowcaseList from "@/components/experience/experience-showcase-
 import { EXPERIENCE } from "@/data/experience";
 import { EDUCATION } from "@/data/education";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import Resume from "@/components/resume";
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
           url: `${siteMetadata.siteUrl}/about`,
           title: "Learn About Sanskriti Gogoi - Software Developer",
           description:
-            "Dive into the story of Sanskriti Gogoi, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Sanskriti Gogoi, a Software Developer. Uncover the experiences, skills and passion that fuel a commitment to delivering exceptional web solutions.",
           siteName: siteMetadata.siteName,
           type: "website",
         }}
@@ -35,6 +36,7 @@ export default function About() {
       <AboutHero />
       <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
       <ExperienceShowcaseList title="Education" details={EDUCATION} />
+      <Resume />
     </>
   );
 }

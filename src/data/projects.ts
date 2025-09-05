@@ -92,9 +92,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Resume Builder",
     favicon: "/images/projects/logos/resume-ready.png",
     imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
+      "/images/projects/resume_ready1.jpg",
+      "/images/projects/resume_ready2.jpg",
     ],
     description:
       "Engineered with React functional components and Hooks to capture user input and render real-time updates on an A4-sized layout. Applied Tailwind CSS for consistent styling and responsive design, ensuring clean print-ready formatting for PDF exports.",
@@ -104,12 +103,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Blockchain Simulator",
     favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
-    ],
+    imageUrl: ["/images/projects/rust_pro.jpg"],
     description:
       "A Rust-based blockchain simulator that mimics the mining process using SHA-256 hashing and proof-of-work (PoW). It features a simplified blockchain structure to demonstrate core concepts like cryptographic hashing, decentralized ledger updates, and transaction validation.",
     sourceCodeHref: "https://github.com/sanskriti2004/blockchain-simulator",

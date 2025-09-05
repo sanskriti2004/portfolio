@@ -54,8 +54,9 @@ export default function LandingHero() {
                 currently exploring{" "}
                 <span className="font-semibold text-accent">ML</span>,{" "}
                 <span className="font-semibold text-accent">DevOps</span>,{" "}
+                <span className="font-semibold text-accent">Low-level</span> &{" "}
                 <span className="font-semibold text-accent">
-                  Low-level & High-level design
+                  High-level design
                 </span>
               </div>
             </FadeUp>

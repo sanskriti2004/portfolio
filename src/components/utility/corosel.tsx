@@ -51,7 +51,7 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
         <motion.img
           key={page}
           loading="lazy"
-          className="h-full w-full bg-cover"
+          className="h-full w-full object-contain"
           style={{ aspectRatio }}
           src={images[imageIndex]}
           custom={direction}
@@ -74,7 +74,7 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
               paginate(-1);
             }
           }}
-        ></motion.img>
+        />
       </AnimatePresence>
       <div className="absolute bottom-0 flex h-12 w-full items-center justify-center gap-2">
         <button
