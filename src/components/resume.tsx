@@ -12,9 +12,7 @@ export default function Resume() {
             </h1>
           </FadeUp>
 
-          {/* Centered iframe and button */}
           <div className="mt-20 flex flex-col items-center justify-center gap-6">
-            {/* iframe without header (preview mode) */}
             <div className="h-[80vh] w-full max-w-3xl">
               <iframe
                 src="https://docs.google.com/document/d/1s4BFDJW48p-YS3fOX--eIMiCJ5QuNJzqIGq9SIOgnR4/preview"
@@ -23,7 +21,6 @@ export default function Resume() {
               ></iframe>
             </div>
 
-            {/* Centered download button */}
             <a
               href="https://docs.google.com/document/d/1s4BFDJW48p-YS3fOX--eIMiCJ5QuNJzqIGq9SIOgnR4/export?format=pdf"
               target="_blank"
