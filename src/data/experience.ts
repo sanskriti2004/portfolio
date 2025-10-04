@@ -10,7 +10,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "June 2025 - October 2025",
     location: "Remote",
     description:
-      "Engaged in full-cycle application development across Angular, Node.js and MongoDB within a distributed microservices architecture. Implemented unit and integration testing strategies across front-end and backend layers, leveraging tools like Jasmine, Karma and related frameworks to ensure application reliability and maintainability.",
+      "Engaged in full-cycle application development across Angular, Node.js, MongoDB and AWS within a distributed microservices architecture. Built UI from ground up, wrote Unit Tests, supported CI/CD pipelines, assisted with Toolchain Migrations and Docker deployments in an Agile team.",
   },
   {
     title: "AI & Web Dev Intern",
@@ -21,6 +21,6 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "May 2025 - June 2025",
     location: "Remote",
     description:
-      "Maintained and scaled web infrastructure using Next.js and Tailwind CSS, ensuring responsive design and clean user experiences. Contributed to the frontend development of an AI-powered SaaS product (23Ventures Outreach App).",
+      "Collaborated closely with the founder to maintain and scale web infrastructure using Next.js and TailwindCSS and improved page performance by ~30%, contributing to faster, more efficient deployments. Contributed to the frontend development of an AI-powered SaaS product (23Ventures Outreach App)",
   },
 ];
